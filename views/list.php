@@ -15,5 +15,6 @@ if($item->status == 'published'){
         include __DIR__ .'/track.php';
     }
     echo '<p>' . $content->shortDescription() . '</p>'; //Collection.php handles description not the item itself
+    //todo: add comment tab to div
     echo '</article>';
 }

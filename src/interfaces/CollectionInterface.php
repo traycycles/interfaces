@@ -11,4 +11,6 @@ interface CollectionInterface extends Iterator, Countable
 //must implement the iterator and countable interfaces if implementing collectioninterface
     public function shortDescription();
     public function getTitle();
+    //todo: add comment function
+    //todo: get comment function
 }
